@@ -1,0 +1,49 @@
+body {
+    font-family: Lexend, Roboto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(255, 200, 243);
+}
+
+.heading, .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(191, 106, 173);
+    color:bisque;
+    align-self: stretch;
+    font-size: 24px;
+}
+
+.heading-text a {
+    font-size: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+.heading-text a:hover{
+    text-decoration: underline;
+}
+
+.content {
+    font-size: 20px;
+    display:flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    width: 75svw;
+    padding-top: 30px;
+    color: #333333;
+}
+
+.content-text {
+    flex-grow: 1;
+}
+
+.footer {
+    margin-top: auto;
+    font-size: 16px
+}
